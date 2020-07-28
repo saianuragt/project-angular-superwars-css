@@ -1,0 +1,46 @@
+#content {
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 2fr;
+    column-gap: 50px;
+    justify-content: center;
+    padding-top: 3px;
+  }
+  
+  #hero {
+    display: grid;
+    justify-content: right;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(2, 150px);
+  }
+  
+  #score {
+    display: grid;
+    font-size: 1.5em;
+    justify-items: center;
+  }
+  
+  #vilan {
+    display: grid;
+    justify-content: left;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(2, 150px);
+  }
+  
+  #hero1,
+  #hero2,
+  #vilan1,
+  #vilan2 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+  
+  }
